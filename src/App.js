@@ -50,8 +50,8 @@ function App() {
           <h3>Movimiento N° 1: {data.abilities[0].ability.name}</h3>
           {
             data && data.abilities && data.abilities[1] && data.abilities[1].ability && data.abilities[1].ability.name
-              ? <h3>Habilidad N° 2: {data.abilities[1].ability.name}</h3>
-              : <h3>Habilidad N° 2: No disponible</h3>
+              ? <h3>Movimiento N° 2: {data.abilities[1].ability.name}</h3>
+              : <h3>Movimiento N° 2: No disponible</h3>
           }
           <br></br>
           <hr></hr>
